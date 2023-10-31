@@ -69,7 +69,7 @@ fun SplashScreen(
         Text(
             /** Manipulate app's name with a different text styles */
             text = buildAnnotatedString {
-                append(appName.take(2))
+                append(appName.take(4))
                 withStyle(
                     style = MaterialTheme.typography.h1
                         .copy(
@@ -78,7 +78,7 @@ fun SplashScreen(
                             fontFamily = FontFamily.Default,
                         ).toSpanStyle(),
                 ){
-                    append(appName.slice(2..3))
+                    append(appName.slice(4..6))
                 }
                 append(appName.takeLast(1))
             },
