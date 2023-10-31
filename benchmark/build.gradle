@@ -34,7 +34,7 @@ android {
     }
 
     targetProjectPath = ":app"
-    namespace 'com.racodex.roffubenchmark'
+    namespace 'com.racodex.mellybenchmark'
     experimentalProperties["android.experimental.self-instrumenting"] = true
 }
 

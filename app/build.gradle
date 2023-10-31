@@ -10,7 +10,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.racodex.roffu"
+        applicationId "com.racodex.melly"
         minSdk 21
         targetSdk 32
         versionCode 1
@@ -52,7 +52,8 @@ android {
             excludes += '/META-INF/{AL2.0,LGPL2.1}'
         }
     }
-    namespace 'com.racodex.roffu'
+    namespace 'com.racodex.melly'
+    buildToolsVersion '33.0.1'
 }
 
 dependencies {
